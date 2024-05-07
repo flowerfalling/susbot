@@ -1,0 +1,14 @@
+[project]
+name = "susbot"
+version = "0.1.0"
+description = "susbot"
+readme = "README.md"
+requires-python = ">=3.8, <4.0"
+
+[tool.nonebot]
+adapters = [
+    { name = "OneBot V12", module_name = "nonebot.adapters.onebot.v12" }
+]
+plugins = []
+plugin_dirs = ["susbot/plugins"]
+builtin_plugins = ["echo"]
